@@ -4,15 +4,6 @@
 
 
 
-
-## Table of Contents
-
-- [Deployment of VNF](#"Deployment"
-- [Lessons Learned:](#"Lessons Learned:")
-- [Security](#security)
-
-
-
 OS: Ubuntu Linux 18.04 LTS  
 
 OpenStack Release: https://docs.openstack.org/devstack/latest/guides/single-machine.html
