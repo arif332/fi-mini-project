@@ -1,4 +1,24 @@
-[TOC]
+**Table of Content**  
+
+\* [OpenStack base Lab Setup](#openstack-base-lab-setup)
+
+\* [Login to VNFs using Floating IP address:](#-login-to-vnfs-using-floating-ip-address-)
+
+\* [Deployment of VNF](#deployment-of-vnf)
+
+  \* [VNF Integration in OpenStack Cloud: Method 1](#vnf-integration-in-openstack-cloud-method-1)
+
+​    \* [Bridge Details:](#bridge-details)
+
+​    \* [Issue in bridge base setup method:](#issue-in-bridge-base-setup-method)
+
+​    \* [Issue in Method\-2:](#issue-in-method-2)
+
+\* [Lessons Learned](#lessons-learned)
+
+\* [Need to Study Further](#need-to-study-further)
+
+
 
 #  OpenStack base Lab Setup 
 
