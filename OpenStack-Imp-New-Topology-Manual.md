@@ -58,7 +58,7 @@ root@fi:~# ssh -i host2.pri ubuntu@172.24.4.209
 
 ![Bridge Setup](img/bridge-diagram.png)
 
-```
+```sh
 root@sf1:~# cat bridge.sh  
 !#/bin/bash   
 brctl addbr br0  
@@ -142,7 +142,7 @@ Fig - Routing table
 <H1>Lessons Learned: </H1>
 1. VMs connectivity to Internet or Physical Network <br>  
 
-```
+```sh
 —missing config in devstack …. need to complete manually  
 sudo ip link set br-ex up  
 sudo ip route add 172.24.4.0/24 dev br-ex  
