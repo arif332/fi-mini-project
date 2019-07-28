@@ -1,8 +1,6 @@
-
+[TOC]
 
 #  OpenStack base Lab Setup 
-
-
 
 OS: Ubuntu Linux 18.04 LTS  
 
@@ -51,10 +49,10 @@ root@fi:~# ssh -i host2.pri ubuntu@172.24.4.209
 <br>
 
 # Deployment of VNF
-# Deployment
-<b> <H2> VNF Integration in OpenStack Cloud: Method 1 </H2> </b>
 
-<b> <H3> Bridge Details: </H2>
+## VNF Integration in OpenStack Cloud: Method 1  
+
+###  Bridge Details: 
 
 ![Bridge Setup](img/bridge-diagram.png)
 
@@ -74,14 +72,16 @@ ip link set dev br0 up
 <br>
 
 <br>
-<b><H3>Issue in bridge base setup method: </H3> </b>
+
+### Issue in bridge base setup method:   
 
 1. not able to ping host1 to host2 or vice versa  
 2. from VNF(sf1) we can ping either HOST1 or HOST2   
 3. Need to work on bridge setup part as it's not allowing bidirectional connection  
 
 <br><br><br>
-<b> <H2>VNF Integration in OpenStack Cloud: Method 2 </H2> </b>
+
+ ## VNF Integration in OpenStack Cloud: Method 2 
 
 
 ![New Togology Map: Simplifided Diagram](img/vnf-new-topology-in-openstack.png)  
@@ -127,18 +127,16 @@ Fig - Router IP information
 Fig - Routing table 
 ![New Togology Map](img/router-fw-table.png)
 
-
 <br><br>
-<b><H3>Issue in Method-2: </H3> </b>
 
-
+### Issue in Method-2: 
 1. from VNF(sf1) we can ping either HOST1 or HOST2   
 2. not able to ping host1 to host2 or vice versa, it's a routing issue in the firewall which need to resolve then it will work a email filter for the outgoing email and will pass rest of the traffic transparently. 
 
 <br>
 <b>
 
-# Lessons Learned:
+# Lessons Learned
 
 1. VMs connectivity to Internet or Physical Network     
 
@@ -166,7 +164,7 @@ permanently:
 <br>
 <b>
 
-# Need to Study Further: 
+# Need to Study Further
 
 1. OpenStack Networking and it's troubleshooting <br>    
 
@@ -174,9 +172,6 @@ permanently:
 
 3. Policy/Source base routing <br>    <br>
 
-  
-## Security
-
-​    
+  ​    
 
 
