@@ -97,7 +97,7 @@ Fig - Network Topology view from OpenStack GUI
 
 <br>
 
-```
+```sh
 root@fi:~# ip netns list  
 qdhcp-e1732e7c-c4fb-43c7-9f44-f5437ceccf5c (id: 11)  
 qrouter-d88ec24f-4bed-4e33-a7f8-9f877c1cdb05 (id: 10)  
