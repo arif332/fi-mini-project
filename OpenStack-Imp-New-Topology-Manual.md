@@ -7,8 +7,8 @@
 
 ## Table of Contents
 
-- [Deployment of VNF](#Deployment)
-
+- [Deployment of VNF](#"Deployment"
+- [Lessons Learned:](#"Lessons Learned:")
 - [Security](#security)
 
 
@@ -186,6 +186,6 @@ permanently:
   
 ## Security
 
-    
+​    
 
 
