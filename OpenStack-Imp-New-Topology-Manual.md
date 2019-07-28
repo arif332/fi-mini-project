@@ -151,16 +151,16 @@ add nat rule for the src address 172.24.4.1/24
 
 permanently:   
 
-vi /etc/netplan/01-netcfg.yaml  
+# vi /etc/netplan/01-netcfg.yaml  
   ethernets:  
     br-ex:  
       dhcp4: no  
       addresses: [172.24.4.1/24]  
 
- netplan apply
+# netplan apply
 
-#apply src nat for the src address 172.24.4.1/24 and use proper outgoing interface which is connected to internet  
-/sbin/iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE
+# apply src nat for the src address 172.24.4.1/24 and use proper outgoing interface which is connected to internet  
+# /sbin/iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE
 
 ```
 <br>
