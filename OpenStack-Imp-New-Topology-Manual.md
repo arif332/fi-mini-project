@@ -2,6 +2,12 @@
 
 #  OpenStack base Lab Setup 
 
+
+
+
+
+
+
 OS: Ubuntu Linux 18.04 LTS  
 
 OpenStack Release: https://docs.openstack.org/devstack/latest/guides/single-machine.html
@@ -48,8 +54,7 @@ root@fi:~# ssh -i host2.pri ubuntu@172.24.4.209
 
 <br>
 
-<H1> Deployment of VNF </H1>
-
+# Deployment of VNF
 
 <b> <H2> VNF Integration in OpenStack Cloud: Method 1 </H2> </b>
 
@@ -137,7 +142,7 @@ Fig - Routing table
 <br>
 <b>
 
-#Lessons Learned:
+# Lessons Learned:
 
 1. VMs connectivity to Internet or Physical Network     
 
@@ -165,7 +170,7 @@ permanently:
 <br>
 <b>
 
-#Need to Study Further: 
+# Need to Study Further: 
 
 1. OpenStack Networking and it's troubleshooting <br>    
 
